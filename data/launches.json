@@ -1,0 +1,39 @@
+{
+    "launch": [
+		{
+			"launcher": "Falcon 9",
+			"kgcapacity": 19500,
+			"kgcost": 4872
+		},
+		{
+			"launcher": "Proton",
+			"kgcapacity": 6360,
+			"kgcost": 18359
+		},
+        {
+            "launcher": "Ariane 5",
+			"kgcapacity": 9600,
+            "kgcost": 20000
+        },
+        {
+            "launcher": "Atlas V",
+			"kgcapacity": 13000,
+            "kgcost": 32666
+        },
+        {
+            "launcher": "Delta IV",
+			"kgcapacity": 12980,
+            "kgcost": 35000
+        },
+		{
+			"launcher": "Space Shuttle",
+			"kgcapacity": 3810,
+			"kgcost": 50874
+		},
+		{
+			"launcher": "Space Elevator",
+			"kgcapacity": 9999999999999999999999999,
+			"kgcost": 220
+		}
+    ]
+}

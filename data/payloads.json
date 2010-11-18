@@ -1,0 +1,44 @@
+{
+	"payload": [
+		{
+			"name": "Voyager 1",
+			"kg": 721.9
+		},
+		{
+			"name": "TIE Fighter",
+			"kg": 11250
+		},
+		{
+			"name": "X-Wing",
+			"kg": 20250
+		},
+		{
+			"name": "B-Wing",
+			"kg": 70000
+		},
+		{
+			"name": "Imperial Shuttle",
+			"kg": 357750
+		},
+		{
+			"name": "Millenium Falcon",
+			"kg": 2937750
+		},
+		{
+			"name": "Tantive IV",
+			"kg": 48564000
+		},
+		{
+			"name": "USS Enterprise",
+			"kg": 181000000
+		},
+		{
+			"name": "Battlestar Galactica",
+			"kg": 20000000000
+		},
+		{
+			"name": "Star Destroyer",
+			"kg": 40000000000
+		}
+	]
+}

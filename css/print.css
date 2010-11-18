@@ -1,0 +1,25 @@
+body {
+    font-size: 100%;
+}
+nav {
+	page-break-after: always;
+}
+header h2 img {
+	float: right;
+}
+figure,
+table img {
+	display: none;
+}
+table {
+	width: 90%;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+tbody th {
+	white-space: nowrap;
+}
+aside {
+	page-break-before: always;
+}

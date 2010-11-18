@@ -1,0 +1,188 @@
+@font-face {
+	font-family: 'League Gothic';
+	src: url('../font/League Gothic/League Gothic.otf');
+}
+h1,h2,tbody,.info,nav a {
+	font-family: 'League Gothic','Helvetica Neue',Arial,Helvetica,sans-serif;
+	text-shadow: rgba(255,255,255,0.8) 0 1px 1px;
+}
+body {
+	background-color: rgba(153,153,153,0.2);
+	color: rgba(0,0,0,0.6);
+	font-family: 'Helvetica Neue',Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 0 1em;
+}
+hgroup,header,nav,aside,figure {
+	display: block;
+}
+a {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover,
+a:focus {
+	border-bottom: 0.1em solid;
+}
+abbr {
+	color: rgba(0,0,0,0.5);
+	border: none;
+}
+hgroup h1 {
+	font-size: 8em;
+	margin: 0;
+}
+hgroup h2 {
+	font-size: 2.8em;
+	letter-spacing: 0.05em;
+	margin: 0.2em 0 0;
+}
+.info {
+	font-size: 4em;
+}
+nav {
+	overflow: hidden;
+	padding: 1em 0;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline;
+	list-style: none;
+}
+nav a {
+	display: block;
+	position: relative;
+	float: left;
+	font-size: 1.75em;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0;
+	text-decoration: none;
+	background-color: rgba(255,255,255,0.75);
+	color: rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0.2em 0.2em 0 rgba(0,0,0,0.25);
+	-moz-box-shadow: 0.2em 0.2em 0 rgba(0,0,0,0.25);
+	-o-box-shadow: 0.2em 0.2em 0 rgba(0,0,0,0.25);
+	box-shadow: 0.2em 0.2em 0 rgba(0,0,0,0.25);
+}
+nav a:hover,
+nav a:focus {
+	border-bottom: none;
+	background-color: rgba(255,255,255,0.9);
+}
+nav a:active {
+	background-color: rgba(255,255,255,0.5);
+	top: 0.1em;
+	left: 0.1em;
+	-webkit-box-shadow: 0.1em 0.1em 0 rgba(0,0,0,0.25);
+	-moz-box-shadow: 0.1em 0.1em 0 rgba(0,0,0,0.25);
+	-o-box-shadow: 0.1em 0.1em 0 rgba(0,0,0,0.25);
+	box-shadow: 0.1em 0.1em 0 rgba(0,0,0,0.25);
+}
+nav a.active {
+	background-color: rgba(255,255,255,0.2);
+	top: 0.2em;
+	left: 0.2em;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+header {
+	clear: both;
+	font-size: 3em;
+	overflow: hidden;
+}
+header h1,
+header h2 {
+	margin: 0;
+	line-height: 1;
+}
+header h2 {
+	font-size: 2em;
+	color: rgba(0,0,0,0.33);
+}
+header h2 img {
+	opacity: 0.5;
+}
+header h2 abbr {
+	color: rgba(0,0,0,0.25);
+}
+table {
+	font-size: 2em;
+	border-collapse: collapse;
+	background-color: rgba(153,153,153,0.1);
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	-o-border-radius: 1em;
+	border-radius: 1em;
+}
+table tr {
+	vertical-align: top;
+	border-top: 0.1em solid rgba(153,153,153,0.1);
+}
+table tr:first-child {
+	border-top: none;
+}
+table td {
+	padding: 0.4em 0.2em;
+}
+tbody th {
+	font-size: 1.5em;
+	padding: 0.15em 0.3em;
+	text-align: left;
+}
+tbody tr td:last-child {
+	font-size: 1.75em;
+	padding: 0.175em;
+	text-align: right;
+	color: rgba(0,0,0,0.66);
+}
+aside {
+	padding: 0 0 1em;
+}
+@media screen {
+	body {
+	    font-size: 87.5%;
+	}
+	table {
+		margin: 1em 0;
+		width: 100%;
+	}
+}
+@media screen and (min-width: 60em) {
+	hgroup,
+	header h1 {
+		width: 33%;
+		position: relative;
+	    clear: left;
+		float: left;
+	}
+	header h2 img {
+		float: right;
+	}
+	figure {
+		text-align: center;
+		padding-bottom: 230px;
+		background-image: url('../img/earth.png');
+		background-position: bottom;
+		background-repeat: no-repeat;
+		opacity: 0.4;
+	}
+}
+@media screen and (max-width: 60em) {
+	body {
+		font-size: 75%;
+	}
+}
+@media screen and (max-width: 40em) {
+	table th,
+	table td {
+		display: block;
+		float: none;
+		clear: both;
+	}
+}
