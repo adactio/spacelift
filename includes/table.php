@@ -7,7 +7,7 @@ $count++;
 $rockets = ceil($weight/$launch['kgcapacity']);
 $cost = $weight*$launch['kgcost'];
 ?>
-<tr title="Getting one <?php echo $_GET['payload']; ?> into Geostationary Transfer Orbit requires <?php echo $rockets; ?> <?php echo $launch['launcher']; ?><?php if ($rockets>1) echo 's'; ?>">
+<tr title="Getting one <?php echo $cargo; ?> into Geostationary Transfer Orbit requires <?php echo $rockets; ?> <?php echo $launch['launcher']; ?><?php if ($rockets>1) echo 's'; ?>">
 <th><?php echo $launch['launcher']; ?></th>
 <td><?php echo number_format($rockets); ?></td>
 <td>
@@ -24,7 +24,7 @@ for ($i=0; $i<$total; $i++): ?>
 <?php endfor; ?>
 </td>
 <td title="<?php echo number_format(($cost*100*1.55)/100000); ?> kilometer tower of pennies">
-<a href="?payload=<?php echo urlencode($_GET['payload']); ?>&amp;launcher=<?php echo $count; ?>">
+<a href="?payload=<?php echo urlencode($cargo); ?>&amp;launcher=<?php echo $count; ?>">
 <abbr title="dollars">$</abbr><?php echo number_format($cost); ?>
 </a>
 </td>
