@@ -20,13 +20,7 @@
 <h1><?php echo $_GET['payload']; ?></h1>
 <h2>
 <?php echo number_format($weight); ?><abbr title="Kilograms">KG</abbr>
-<img src="http://chart.apis.google.com/chart?
-chs=200x100
-&amp;chf=a,s,000000|bg,s,67676700
-&amp;cht=gom
-&amp;chd=t:<?php echo round(log($weight)*(log($weight))/6); ?>
-&amp;chco=CCCCCC,000000
-">
+<img src="http://chart.apis.google.com/chart?chs=200x100&amp;chf=a,s,000000|bg,s,67676700&amp;cht=gom&amp;chd=t:<?php echo round(log($weight)*(log($weight))/6); ?>&amp;chco=CCCCCC,000000">
 </h2>
 </header>
 <?php endif; ?>
