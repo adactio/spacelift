@@ -27,7 +27,7 @@ $pennykm = ($cost*100*1.55)/100000;
 <?php if ($pennykm > 3800):
 $ratio = round($pennykm/3800);
 if ($ratio >=2): ?>
-That&rsquo;s <?php echo $ratio; ?> times larger than a space elevator.
+That&rsquo;s <?php echo number_format($ratio); ?> times larger than a space elevator.
 <?php else: ?>
 That&rsquo;s larger than a space elevator.
 <?php endif;
